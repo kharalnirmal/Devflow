@@ -30,5 +30,12 @@
   },
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.exclude": {
+    "**/.vscode": true,
+    "**/.next": true,
+    "**/.node_module": true,
+    "next-env.d.ts": true,
+    "**/Thumbs.db": true
   }
 }
